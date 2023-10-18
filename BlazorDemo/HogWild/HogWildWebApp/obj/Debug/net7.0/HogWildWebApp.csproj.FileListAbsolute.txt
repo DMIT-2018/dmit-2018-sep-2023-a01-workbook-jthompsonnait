@@ -84,3 +84,4 @@ C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWi
 C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.pdb
 C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\obj\Debug\net7.0\HogWildWebApp.genruntimeconfig.cache
 C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\obj\Debug\net7.0\ref\HogWildWebApp.dll
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\SamplePages\Basics.razor.rz.scp.css
