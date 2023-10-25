@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HogWildWebApp", "HogWildWebApp\HogWildWebApp.csproj", "{32061D31-CB0D-4266-9193-923682ED310D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HogWildWebApp", "HogWildWebApp\HogWildWebApp.csproj", "{32061D31-CB0D-4266-9193-923682ED310D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HogWildSystem", "HogWildSystem\HogWildSystem.csproj", "{8755CEEE-6BD3-4DCE-BC0C-D5C9FAEEF179}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{32061D31-CB0D-4266-9193-923682ED310D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32061D31-CB0D-4266-9193-923682ED310D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32061D31-CB0D-4266-9193-923682ED310D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8755CEEE-6BD3-4DCE-BC0C-D5C9FAEEF179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8755CEEE-6BD3-4DCE-BC0C-D5C9FAEEF179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8755CEEE-6BD3-4DCE-BC0C-D5C9FAEEF179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8755CEEE-6BD3-4DCE-BC0C-D5C9FAEEF179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

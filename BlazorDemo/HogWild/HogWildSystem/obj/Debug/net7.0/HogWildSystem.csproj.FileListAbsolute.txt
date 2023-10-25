@@ -1,0 +1,11 @@
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\obj\Debug\net7.0\HogWildSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\obj\Debug\net7.0\HogWildSystem.AssemblyInfoInputs.cache
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\obj\Debug\net7.0\HogWildSystem.AssemblyInfo.cs
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\obj\Debug\net7.0\HogWildSystem.csproj.CoreCompileInputs.cache
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\bin\Debug\net7.0\HogWildSystem.deps.json
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\bin\Debug\net7.0\HogWildSystem.dll
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\bin\Debug\net7.0\HogWildSystem.pdb
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\obj\Debug\net7.0\HogWildSystem.dll
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\obj\Debug\net7.0\refint\HogWildSystem.dll
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\obj\Debug\net7.0\HogWildSystem.pdb
+C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\obj\Debug\net7.0\ref\HogWildSystem.dll

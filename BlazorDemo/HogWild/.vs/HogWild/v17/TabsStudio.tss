@@ -2,9 +2,13 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\Pages\SamplePages\Basics.razor</string>
-      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\Pages\SamplePages\Basics.razor.cs</string>
-      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\Pages\SamplePages\Basics.razor.css</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\HogWildSystem.csproj</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\HogWildWebApp.csproj</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\BLL\Dummy.txt</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

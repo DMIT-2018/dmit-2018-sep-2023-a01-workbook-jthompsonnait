@@ -1222,6 +1222,16 @@
             "rid": "win"
           }
         }
+      },
+      "HogWildSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/HogWildSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HogWildSystem.dll": {}
+        }
       }
     }
   },
@@ -3318,10 +3328,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "HogWildSystem/1.0.0": {
+      "type": "project",
+      "path": "../HogWildSystem/HogWildSystem.csproj",
+      "msbuildProject": "../HogWildSystem/HogWildSystem.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "HogWildSystem >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.12",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.12",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.12",
@@ -3346,6 +3362,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+        "C:\\GitHub\\dmit-2018-sep-2023-a01-workbook-jthompsonnait\\BlazorDemo\\HogWild\\NuGet.Config",
         "C:\\Users\\JTHOMPSON\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3355,13 +3372,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Progress\\Telerik UI for WinForms R2 2023\\Bin70\\NuGet": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\GitHub\\dmit-2018-sep-2023-a01-workbook-jthompsonnait\\BlazorDemo\\HogWild\\HogWildSystem\\HogWildSystem.csproj": {
+              "projectPath": "C:\\GitHub\\dmit-2018-sep-2023-a01-workbook-jthompsonnait\\BlazorDemo\\HogWild\\HogWildSystem\\HogWildSystem.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
