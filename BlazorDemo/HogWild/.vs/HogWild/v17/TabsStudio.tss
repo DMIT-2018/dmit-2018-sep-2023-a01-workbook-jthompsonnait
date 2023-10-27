@@ -2,13 +2,22 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\HogWildSystem.csproj</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\Program.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildWebApp\HogWildWebApp.csproj</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\BLL\WorkingVersionsService.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\BLL\Dummy.txt</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\HogWIldExtension.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\ViewModels\WorkingVersionsView.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\Entities\WorkingVersion.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a01-workbook-jthompsonnait\BlazorDemo\HogWild\HogWildSystem\DAL\HogWildContext.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

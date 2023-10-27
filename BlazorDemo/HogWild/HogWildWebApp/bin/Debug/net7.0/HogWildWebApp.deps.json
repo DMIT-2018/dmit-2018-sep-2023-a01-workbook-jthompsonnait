@@ -659,6 +659,12 @@
         }
       },
       "HogWildSystem/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.12",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.12",
+          "Microsoft.AspNetCore.Identity.UI": "7.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12"
+        },
         "runtime": {
           "HogWildSystem.dll": {}
         }

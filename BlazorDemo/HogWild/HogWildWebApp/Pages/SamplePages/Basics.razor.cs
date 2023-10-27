@@ -1,4 +1,5 @@
-﻿using HogWildWebApp.Areas.ViewModels;
+﻿using HogWildSystem.Entities;
+using HogWildWebApp.Areas.ViewModels;
 using Microsoft.AspNetCore.Components;
 
 namespace HogWildWebApp.Pages.SamplePages
