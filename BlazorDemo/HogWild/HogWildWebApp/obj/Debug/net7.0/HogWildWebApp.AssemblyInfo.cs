@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-HogWildWebApp-dc0f2cff-a8f9-4d8f-b253-b5b73fb9157d")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-HogWildWebApp-3b5ce75a-aa0e-4e89-8a41-c7ffd9e92b22")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("HogWildWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

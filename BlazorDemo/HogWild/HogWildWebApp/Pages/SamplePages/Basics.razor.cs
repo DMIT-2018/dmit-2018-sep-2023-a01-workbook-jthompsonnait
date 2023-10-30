@@ -6,8 +6,8 @@ namespace HogWildWebApp.Pages.SamplePages
 {
     public partial class Basics
     {
-        #region Fields
-        #region Method
+        #region Privates
+        #region Methods
         //  used to display my name
         private string? myName;
         //  the odd or even value
@@ -17,21 +17,23 @@ namespace HogWildWebApp.Pages.SamplePages
         #region Text Boxes
         //  email address
         private string emailText;
-        //  password
+        //  passowrd
         private string passwordText;
-        //  date 
+        //  date
         private DateTime? dateText = DateTime.Today;
         #endregion
-        #region Radio Buttons, Checkboxes & Text Area
-        //  selected meal
+
+        #region Radio Buttons, Check boxes & Text Area
+        //  selected loopMeal
         private string meal = "breakfast";
-        private string[] meals { get; set; } = new string[] { "breakfast", "lunch", "dinner", "snacks" };
+        private string[] meals { get; set; } = new string[] {"breakfast", "lunch", "dinner", "snack"};
         //  used to hold the value of the acceptance
         private bool acceptanceBox;
-        // used to hold the value for the message body
+        //  used to hold the balue for the message body
         private string messageBody;
         #endregion
-        #region List and Sliders
+
+           #region List and Sliders
 
         //  pretend tat the following collection is data from a database
         //  The collection is based on a 2 property class called SelectionList
@@ -62,24 +64,24 @@ namespace HogWildWebApp.Pages.SamplePages
         /// <value>The review rating.</value>
         private int reviewRating = 5;
         #endregion
-        //  used to display any feedback to the end user
+        //  used to display any feedback to the end user.
         private string feedback;
         #endregion
 
         //  This method is automatically called when the component is initialized
         protected override async Task OnInitializedAsync()
         {
-            //  Call the vase class OnInitializedAsync method (if any)
+            //  Call the base class OnInitializedAsync method (if any)
             await base.OnInitializedAsync();
 
-            //  Call the RandomValue method to perform custom initialization logic
+            //  call the RandonValue method to perform custom initialization logic.
             RandomValue();
 
             // Call the 'PopulatedList' method to populate predefined data for the list.
             PopulatedList();
         }
 
-        //  Generates a random number between 0 and 25 using the Random class
+        //  Generates a random number betwen 0 and 25 using the Random class
         //  Checks if the generated number is even
         //  Sets the myName variable to a message if even, or to null if odd
         private void RandomValue()
@@ -87,31 +89,31 @@ namespace HogWildWebApp.Pages.SamplePages
             //  Create an instance of the Random class to generate random numbers
             Random rnd = new Random();
 
-            //  Generate a random integer between 0 (inclusive) and 25 (exclusive_
+            //  Generate a random integer between 0 (inclusive) and 25 (exclusive)
             oddEvenValue = rnd.Next(0, 25);
 
-            //  check if the generate number is evern.
+            //  Check if the generated number is even.
             if (oddEvenValue % 2 == 0)
             {
-                //  If the number is even, construct a message with the number and assign it to myName
+                //  If the number is even, contstruct a message with the number and assign it to myName
                 myName = $"James is even {oddEvenValue}";
             }
             else
             {
-                //  If the number is odd, set myName to null
+                //  If the number is odd, set myName to null,
                 myName = null;
             }
-            //  Trigger an asynchronous update of the components state to reflect the changes made
+            //  Trigger an asynchronous update of the component's state to reflect the changes made.
             InvokeAsync(StateHasChanged);
         }
 
         //  This method is called when a user submits text input.
         private void TextSubmit()
         {
-            // Combine the values of emailText, passwordText, and dateText into a feedback message.
+            //  Combine the values of emailText, passordText, and dateText into a feedback message.
             feedback = $"Email {emailText}; Password {passwordText}; Date {dateText}";
 
-            // Trigger a re-render of the component to reflect the updated feedback.
+            //  Trigger a re-render of the component to reflect the updated feedback.
             InvokeAsync(StateHasChanged);
         }
 
@@ -137,7 +139,7 @@ namespace HogWildWebApp.Pages.SamplePages
 
             // Invoke asynchronous method 'StateHasChanged' to trigger a re-render of the component.
             InvokeAsync(StateHasChanged);
-        } private void RadioButtonSubmit() { }
+        }
 
         /// <summary>
         /// Populates the 'rides' list and 'vacationSpots' list with predefined data.
@@ -159,6 +161,7 @@ namespace HogWildWebApp.Pages.SamplePages
             // Sort the 'rides' list alphabetically based on the 'DisplayText' property.
             rides.Sort((x, y) => x.DisplayText.CompareTo(y.DisplayText));
 
+
             // Initialize and populate the 'vacationSpots' list with predefined vacation destinations.
             vacationSpots = new List<string>();
             vacationSpots.Add("California");
@@ -169,13 +172,10 @@ namespace HogWildWebApp.Pages.SamplePages
             vacationSpots.Add("Mexico");
         }
 
-        // Handle the selection of the loop meal
-        private void HandleMealSelection(ChangeEventArgs e)
+        //  Handle the selection of the loop loopMeal
+            private void HandleMealSelection(ChangeEventArgs e)
         {
             meal = e.Value.ToString();
         }
-
-
     }
-
 }
