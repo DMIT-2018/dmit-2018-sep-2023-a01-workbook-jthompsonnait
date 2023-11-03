@@ -11,7 +11,7 @@ namespace HogWildSystem.BLL
         private readonly HogWildContext _hogWildContext;
         #endregion
         
-        //  COnstructor for the WorkingVersionsService class
+        //  Constructor for the WorkingVersionsService class
         internal WorkingVersionsService(HogWildContext hogWildContext)
         {
             //  Initialize the _hogWildContext field with the provide hogWildContext instance.
