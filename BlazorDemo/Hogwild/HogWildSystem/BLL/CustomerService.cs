@@ -1,4 +1,6 @@
-﻿using HogWildSystem.DAL;
+﻿#nullable disable
+using HogWildSystem.DAL;
+using HogWildSystem.Paginator;
 using HogWildSystem.ViewModels;
 
 namespace HogWildSystem.BLL
@@ -19,7 +21,9 @@ namespace HogWildSystem.BLL
             _hogWildContext = hogWildContext;
         }
 
-        public List<CustomerSearchView> GetCustomers(string lastName, string phone)
+        public Task<PagedResult<CustomerSearchView>> GetCustomers(string lastName, string phone,
+                                                                    int page, int pageSize, string sortColumn,
+                                                                    string direction)
         {
             //	Business Rule
             //	Thees are processing rules that need to ve satisfied
@@ -44,7 +48,7 @@ namespace HogWildSystem.BLL
                 phone = Guid.NewGuid().ToString();
             }
 
-            return _hogWildContext.Customers
+            return Task.FromResult(_hogWildContext.Customers
                 .Where(x => (x.LastName.Contains(lastName)
                              || x.Phone.Contains(phone))
                             && !x.RemoveFromViewFlag)
@@ -58,8 +62,44 @@ namespace HogWildSystem.BLL
                     Email = x.Email,
                     StatusID = x.StatusID,
                     TotalSales = x.Invoices.Sum(x => x.SubTotal + x.Tax)
-                }).ToList();
+                }).AsQueryable()
+                .OrderBy(sortColumn, direction)
+                .ToPagedResult(page, pageSize));
 
+        }
+
+        /// Get the customer.
+        public CustomerEditView GetCustomer(int customerID)
+        {
+            //  Business Rules
+            //	These are processing rules that need to be satisfied
+            //		for valid data
+            //		rule:	customerID must be valid 
+
+            if (customerID == 0)
+            {
+                throw new ArgumentNullException("Please provide a customer");
+            }
+
+            return _hogWildContext.Customers
+                .Where(x => (x.CustomerID == customerID
+                             && x.RemoveFromViewFlag == false))
+                .Select(x => new CustomerEditView
+                {
+                    CustomerID = x.CustomerID,
+                    FirstName = x.FirstName,
+                    LastName = x.LastName,
+                    Address1 = x.Address1,
+                    Address2 = x.Address2,
+                    City = x.City,
+                    ProvStateID = x.ProvStateID,
+                    CountryID = x.CountryID,
+                    PostalCode = x.PostalCode,
+                    Phone = x.Phone,
+                    Email = x.Email,
+                    StatusID = x.StatusID,
+                    RemoveFromViewFlag = x.RemoveFromViewFlag
+                }).FirstOrDefault();
         }
     }
 }
