@@ -37,6 +37,7 @@ builder.Services.AddBackendDependencies(options =>
     options.UseSqlServer(connectionStringHogWild));
 
 builder.Services.AddMudServices();
+builder.Services.AddBlazorDialog();
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
